@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -53,7 +58,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -66,7 +71,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -114,6 +119,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -609,7 +615,7 @@ font-style: italic;
 </div>
 </div>
 <p>Como se vê na figura acima, o REGIC divide as cidades do Brasil em onze níveis e sub-níveis hierárquicos. Da esquerda para a direita, de cima para baixo, é possível perceber a gradação hierárquica.</p>
-<strong>Algumas palavras a mais sobre o REGIC</strong>
+<p><strong>Algumas palavras a mais sobre o REGIC</strong></p>
 <div class="comment">
 <p>No primeiro nível da hierarquia estão as <strong>Metrópoles</strong>. Conforme o <a href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101728_folder.pdf">IBGE</a>, tratam-se “[d]os 15 principais centros urbanos, dos quais todas as Cidades existentes no País recebem influência direta, seja de uma ou mais Metrópoles simultaneamente. A região de influência dessas centralidades é ampla e cobre toda a extensão territorial do País, com áreas de sobreposição em determinados contatos”.</p>
 <p>Quando se trata de metrópoles temos no maior nível hierárquico o municípios de São Paulo como a única <strong>grande metrópole nacional</strong>. Brasília e Rio de Janeiro, vêm em seguida como as <strong>metrópoles nacionais.</strong> Por fim, existem doze <strong>metrópoles</strong>, representadas por 11 capitais mais influentes e Campinas. Observa-se nos mapas acima que todos as cidades sedes das metrópoles possuem mais de 500 mil habitantes, destacadas na cor amarela, com exceção de Vitória.</p>
@@ -1671,11 +1677,11 @@ font-style: italic;
 <h3 class="anchored" data-anchor-id="para-finalizar">Para finalizar</h3>
 <p>Vimos que o Regic é um bom preditor dos deslocamentos de pacientes entre municípios de diferentes níveis, tanto para a saída como para a chegada de pacientes. Percebemos também que os níveis superiores da hierarquia estão associados a forte autonomia hospitalar. Não foi difiícil perceber que esses fenômenos levam muitas vezes a deslocamentos de centenas ou milhares de quilômetros para os pacientes e seus familiares.</p>
 <p>Já no final do texto percebemos que os gastos hospitalares estão associados inversamente a um grande percentual de atendimentos fora dos municípios de residência e isso se reflete na hierarquia Regic onde percebemos que os centros locais no geral gastam bem menos que os outros municípios.</p>
-<p>É preciso dizer, porém, que há motivações para que esse tipo de desenho ocorra. Talvez não necessariamente de forma tão acentuada. A organização do SUS prevê <strong>regiões de saúde</strong> formadas por agrupamentos de municípios. Esse tipo de arranjo tem entre outros objetivos a busca da racionalização dos gastos, otimização de recursos e eficiência na rede de atenção<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Essa caracterização do SUS prevê fluxos de pacientes e pode influenciar a decisão alocativa de orçamento municipal. O nosso trabalho não tem a intenção de mostrar as redes de causalidade que geram o quadro aqui apresentado. Acreditamos que essa é uma tarefa para equipes mais especializadas sobre o tema de saúde pública. Em todo caso deixamos aqui nossas análises, com códigos e dados abertos <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, de forma que possam ser úteis para futuros trabalhos onde outros aspectos do atendimento hospitalar sejam investigados</p>
+<p>É preciso dizer, porém, que há motivações para que esse tipo de desenho ocorra. Talvez não necessariamente de forma tão acentuada. A organização do SUS prevê <strong>regiões de saúde</strong> formadas por agrupamentos de municípios. Esse tipo de arranjo tem entre outros objetivos a busca da racionalização dos gastos, otimização de recursos e eficiência na rede de atenção<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Essa caracterização do SUS prevê fluxos de pacientes e pode influenciar a decisão alocativa de orçamento municipal. O nosso trabalho não tem a intenção de mostrar as redes de causalidade que geram o quadro aqui apresentado. Acreditamos que essa é uma tarefa para equipes mais especializadas sobre o tema de saúde pública<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Em todo caso deixamos aqui nossas análises, com códigos e dados abertos <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, de forma que possam ser úteis para futuros trabalhos onde outros aspectos do atendimento hospitalar sejam investigados</p>
 </section>
 <section id="um-pouco-sobre-o-painel" class="level3">
 <h3 class="anchored" data-anchor-id="um-pouco-sobre-o-painel">Um pouco sobre o painel</h3>
-<p>Provavelmente você está lendo esse texto a partir de um painel produzido pela Secretaria do Tesouro Nacional. Além desse material o painel conta com páginas que de uma certa forma permitem localizar os municípios dentro dos quadros analíticos explorados ao longo do texto. Convidamos o leitor para fazer a navegação por entre as abas disponibilizadas, fazer filtros, baixar dados e capturar gráficos para outras ressignficações dos dados sobre atendimentos hospitares no Brasil e suas relações com execuções orçamentárias municipais.</p>
+<p>Provavelmente você está lendo esse texto a partir de um painel produzido pela Secretaria do Tesouro Nacional. Além desse material o painel conta com páginas que de uma certa forma permitem localizar os municípios dentro dos quadros analíticos explorados ao longo do texto. É possível ainda que com a evolução das sugestões de usuários novas páginas sejam acrescentadas sem necessariamente haver análises feitas pela equipe da STN. Convidamos o leitor a navegar por entre as abas disponibilizadas, fazer filtros, baixar dados e capturar gráficos para outras ressignficações dos dados sobre atendimentos hospitares no Brasil e suas relações com execuções orçamentárias municipais.</p>
 </section>
 <section id="agradecimentos" class="level3">
 <h3 class="anchored" data-anchor-id="agradecimentos">Agradecimentos</h3>
@@ -1684,15 +1690,16 @@ font-style: italic;
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p>é importante destacar que os dados trabalhados até aqui são oriundos do SICONFI. O SICONFI é o sistema que centraliza as informações de finanças públicas dos entes federativos brasileiros. Especificamente para os gráficos gerados até aqui, usamos como suporte o aplicativo <a href="https://meusiconfi.tesouro.gov.br/Interface_rsiconfi.rmd">Meu SICONFI</a> que permite baixar com grande facilidade os dados do sistema.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>os dados de internações são extraídos do Sistema de Internações hospitalares do SUS. Para o caso específico desse trabalho usamos o pacote <a href="https://github.com/rfsaldanha/microdatasus">{microdatasus}</a> desenvolvido por Saldanha et al (2019)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>O agrupamento foi baseado na abordagem k-medoids onde se identifica um ponto no grupo que represeta uma distância central considerando as variáveis utilizadas para a formação dos grupos. No caso: % de entrada e % de saída. Para conhecer um pouco mais sobre k-medoids recomendamos a leitura desse <a href="https://en.wikipedia.org/wiki/K-medoids">artigo</a> na wikipedia.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>Tal como os dados sobre gastos informados logo na primeira seção do texto, aqui também utilizamos as informações vindas do SICONFI. A diferença é que para esse caso usamos uma <a href="https://github.com/tchiluanda/siconfiBD">biblioteca em R</a> desenvolvida pela STN que facilita o consumo automatizado dos dados anuais de municípios.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>Para conhecer mais sobre as diretrizes gerais sobre regiões de saúde, leia a <a href="https://bvsms.saude.gov.br/bvs/saudelegis/cit/2011/res0001_29_09_2011.html">resolução Nº 1, de 29 de setembro de 2011</a> do Ministério da Sáude.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>Os códigos utilizados, incluindo os processos de captura dos dados das fontes primárias estão disponíveis no <a href="https://github.com/tchiluanda/siconfi_atendimento_hospitalar">github</a>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>é importante destacar que os dados trabalhados até aqui são oriundos do SICONFI. O SICONFI é o sistema que centraliza as informações de finanças públicas dos entes federativos brasileiros. Especificamente para os gráficos gerados até aqui, usamos como suporte o aplicativo <a href="https://meusiconfi.tesouro.gov.br/Interface_rsiconfi.rmd">Meu SICONFI</a> que permite baixar com grande facilidade os dados do sistema.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>os dados de internações são extraídos do Sistema de Internações hospitalares do SUS. Para o caso específico desse trabalho usamos o pacote <a href="https://github.com/rfsaldanha/microdatasus">{microdatasus}</a> desenvolvido por Saldanha et al (2019)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>O agrupamento foi baseado na abordagem k-medoids onde se identifica um ponto no grupo que represeta uma distância central considerando as variáveis utilizadas para a formação dos grupos. No caso: % de entrada e % de saída. Para conhecer um pouco mais sobre k-medoids recomendamos a leitura desse <a href="https://en.wikipedia.org/wiki/K-medoids">artigo</a> na wikipedia.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Tal como os dados sobre gastos informados logo na primeira seção do texto, aqui também utilizamos as informações vindas do SICONFI. A diferença é que para esse caso usamos uma <a href="https://github.com/tchiluanda/siconfiBD">biblioteca em R</a> desenvolvida pela STN que facilita o consumo automatizado dos dados anuais de municípios.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Para conhecer mais sobre as diretrizes gerais sobre regiões de saúde, leia a <a href="https://bvsms.saude.gov.br/bvs/saudelegis/cit/2011/res0001_29_09_2011.html">resolução Nº 1, de 29 de setembro de 2011</a> do Ministério da Sáude.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Para conhecer mais sobre o fenômeno da evasão de pacientes para fora de suas regiões de saúde recomendamos a leitura de Rocha, R., Rache, R. e L. Nunes (2022). A Regionalização da Saúde no Brasil. Estudo Institucional n.7. São Paulo: Instituto de Estudos para Políticas de Saúde<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Os códigos utilizados, incluindo os processos de captura dos dados das fontes primárias estão disponíveis no <a href="https://github.com/tchiluanda/siconfi_atendimento_hospitalar">github</a>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main>
 <!-- /main column -->
@@ -1737,7 +1744,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -1765,31 +1789,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
