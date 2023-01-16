@@ -86,19 +86,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 
 
-<script src="federalismo_episodio_2_2020_files/libs/clipboard/clipboard.min.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/quarto-html/quarto.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/quarto-html/popper.min.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/quarto-html/anchor.min.js"></script>
-<link href="federalismo_episodio_2_2020_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="federalismo_episodio_2_2020_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="federalismo_episodio_2_2020_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="federalismo_episodio_2_2020_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="federalismo_episodio_2_2020_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="federalismo_episodio_2_2020_files/libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/plotly.js-2.5.1/./plotly.min.js"></script>
-<script src="federalismo_episodio_2_2020_files/libs/parcats-binding-0.0.4/parcats.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/clipboard/clipboard.min.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/quarto-html/quarto.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/quarto-html/popper.min.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/quarto-html/anchor.min.js"></script>
+<link href="federalismo_episodio_2_2021_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="federalismo_episodio_2_2021_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="federalismo_episodio_2_2021_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="federalismo_episodio_2_2021_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="federalismo_episodio_2_2021_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="federalismo_episodio_2_2021_files/libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/plotly.js-2.5.1/./plotly.min.js"></script>
+<script src="federalismo_episodio_2_2021_files/libs/parcats-binding-0.0.4/parcats.js"></script>
 
 
 </head>
@@ -150,7 +150,7 @@ font-style: italic;
 }
 
 </style>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-2_497e0d3267fb28cd926a4a893ff3895f">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-2_31fb1b510d65d803327bf67b6a0f7b9e">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"wilker-lauriano-9dkdy9m0YXE-unsplash.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -160,7 +160,7 @@ font-style: italic;
 </div>
 </div>
 <p>Foto por <a href="https://unsplash.com/@willph?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wilker Lauriano</a> on <a href="https://unsplash.com/s/photos/hospital-brazil?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/setup_6d7ec4ddc4455d8a0214c3bdbe9aed7c">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/setup_a4d3a890f709d857215f4acbc668e7db">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
@@ -174,11 +174,11 @@ font-style: italic;
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(easyalluvial)</span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>dataset_analise <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"~/Github/siconfi_atendimento_hospitalar/dataset_analise_2020.RDS"</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>dataset_analise <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"dataset_analise_2021.RDS"</span>)</span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"~/Github/siconfi_atendimento_hospitalar/dados_auxiliares.RData"</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">load</span>(<span class="st">"dados_auxiliares_2021.RData"</span>)</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>mun_sel_nivel_1A<span class="ot">&lt;-</span> </span>
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  municipios_seat <span class="sc">%&gt;%</span></span>
@@ -216,13 +216,13 @@ font-style: italic;
 <span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">delim =</span> <span class="st">";"</span>, <span class="at">escape_double =</span> <span class="cn">FALSE</span>, <span class="at">trim_ws =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>Nos próximos gráficos e parágrafos vamos mostrar que o atendimento hospitalar no Brasil requer com muita frequência deslocamentos dos pacientes para cidades diferentes das suas residências. Para sermos mais precisos, em torno de 3,6 milhões de deslocamentos desse tipo somente no ano de 2020. Na maioria das vezes essas viagens não ultrapassam as cidades mais próximas, porém, em muitas situações, alcançam os milhares de quilômetros.</p>
+<p>Nos próximos gráficos e parágrafos vamos mostrar que o atendimento hospitalar no Brasil requer com muita frequência deslocamentos dos pacientes para cidades diferentes das suas residências. Para sermos mais precisos, em torno de 4,0 milhões de deslocamentos desse tipo somente no ano de 2021. Na maioria das vezes essas viagens não ultrapassam as cidades mais próximas, porém, em muitas situações, alcançam os milhares de quilômetros.</p>
 <p>Essa constatação é decorrente de uma investigação que se originou a partir dos dados sobre gastos em atendimento hospitalar e ambulatorial. A partir deles, é possível detectar uma imensa desigualdade entre os municípios brasileiros: a grande maioria das localidades de pequeno porte com gastos bastante inferiores às de médio e grande porte. Essa observação, por sua vez, nos levou a questionar se a desigualdade de gastos geraria fluxos significativos de pacientes entre cidades com baixa capacidade hospitalar para aquelas com maiores disponibildiades de infra-estrutura de atendimento.</p>
 <p>Com o apoio de um modelo de influência de cidades produzido pelo IBGE conseguimos mostrar que o fenômeno dos deslocamentos de pacientes ocorre e atinge principalmente os municípios menores, com menos capacidade de gestão e de menor gastos proporcional em atendimento hospitalar e ambulatorial. Por outro lado, alguns poucos municípios maiores, com mais capacidade de influência e de gestão, passam a receber pacientes de fora aumentando a demanda por seus serviços de sáude.</p>
 <section id="uma-rápida-apresentação-sobre-os-gastos-em-atendimento-hospitalar-e-ambulatorial" class="level2">
 <h2 class="anchored" data-anchor-id="uma-rápida-apresentação-sobre-os-gastos-em-atendimento-hospitalar-e-ambulatorial">Uma rápida apresentação sobre os gastos em atendimento hospitalar e ambulatorial</h2>
 <p>O Atendimento Hospitalar e Ambulatorial é uma das sub-funções de governo relacionadas à saúde pública. Vejamos o que revelam os dados disponibilizados pela Secretaria do Tesouro Nacional (STN) sobre a divisão desse tipo de gasto entre as três esferas de governo.</p>
-<div class="cell" data-layout-align="left" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-4_29a304c382d42ff4b2997007a5af5c3f">
+<div class="cell" data-layout-align="left" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-4_f8893e5f734d39cf445aac1db8744966">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sub_funcao_saude_Uniao_2019 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"sub_funcao_saude_Uniao_2019.csv"</span>)</span>
@@ -268,14 +268,14 @@ font-style: italic;
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 <p>A figura acima mostra a distribuição dos gastos das sub-funções de saúde entre as três esferas de governo. Percebe-se que a Assistência Hospitalar e Ambulatorial apresenta-se no topo do ranking. Além disso, fica claro que há uma divisão equilibrada dos gastos entre os Estados, municípios e União.</p>
 <p>Ocorre, porém, que quando se foca os gastos nos diversos municípios brasileiros, o que se vê é que não há uma distribuição consistente. Vários municípios, principalmente de pequeno porte, executam em seu orçamento um percentual pequeno do total dos gastos em saúde nos serviços hospitalares e ambulatoriais. Veja os três gráficos abaixo.</p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-6_e2449a7f4825e7dada57f3a409c70deb">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-6_2a00a344a210ee053cabbd68701de810">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(forcats)</span>
@@ -324,10 +324,10 @@ font-style: italic;
 <span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-8_8f5ff7373dadc8c60f79743e3c435346">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-8_448e53fac7f90ee732c08e8af944ef09">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>sub_funcao_saude_Municipios_2019 <span class="sc">%&gt;%</span></span>
@@ -371,10 +371,10 @@ font-style: italic;
 <span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-10_e5b51bc36cafd1b0aaec1bb20b9cdb7d">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-10_20a35465a3eb956a133fce69bdae7854">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sub_funcao_saude_Municipios_2019 <span class="sc">%&gt;%</span></span>
@@ -420,7 +420,7 @@ font-style: italic;
 <span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>O primeiro gráfico mostra as proporções dos gastos nas sub-funções de saúde de todos os municípios do Brasil que estão na base de dados pesquisada <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. O segundo exibe os gastos em saúde dos trinta municípios com maiores despesas em saúde e o terceiro mostra a mesma informação, só que foca-se nos trinta municípios com menores despesas.</p>
@@ -429,8 +429,8 @@ font-style: italic;
 </section>
 <section id="deslocamentos-hospitalares-e-regiões-de-influência" class="level2">
 <h2 class="anchored" data-anchor-id="deslocamentos-hospitalares-e-regiões-de-influência">Deslocamentos hospitalares e Regiões de Influência</h2>
-<p>Para começar a nossa análise vamos mostrar como uma amostra aleatória de mais de 1 milhão de internações hospitalares ocorridas em 2020 em todo o Brasil se divide entre atendimentos locais e com deslocamentos. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<div class="cell" data-layout-align="left" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-12_b59624dcccbcdfdeab6af96577403b30">
+<p>Para começar a nossa análise vamos mostrar como uma amostra aleatória de mais de 1 milhão de internações hospitalares ocorridas em 2021 em todo o Brasil se divide entre atendimentos locais e com deslocamentos. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<div class="cell" data-layout-align="left" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-12_16aad67a188e39f74c4eef09dadf3679">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Quantidade de atendimento total por tipo de deslocamento</span></span>
@@ -452,14 +452,14 @@ font-style: italic;
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="384"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="384"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>Observa-se no gráfico que os atendimentos locais, ou seja feitos na própria cidade do paciente, são bem mais numerosos do que os que exigem deslocamento. No entanto, ainda assim, a amostra revela mais de 360 mil procedimentos hospitalares que levaram os pacientes a se locomoverem de cidade. Considerando que essa é uma amostra de 10% do total de internações realizadas em 2020, não é difícil extrapolar que aproximadamente 3,6 milhões de atendimentos foram realizados fora das cidades de residência dos pacientes. Somente a título de comparação demográfica, a população do Uruguai foi estimada em <a href="https://datosmacro.expansion.com/paises/uruguay">3,5 milhões de habitantes</a> em 2020.</p>
+<p>Observa-se no gráfico que os atendimentos locais, ou seja feitos na própria cidade do paciente, são bem mais numerosos do que os que exigem deslocamento. No entanto, ainda assim, a amostra revela quase 400 mil procedimentos hospitalares que levaram os pacientes a se locomoverem de cidade. Considerando que essa é uma amostra de 10% do total de internações realizadas em 2021, não é difícil extrapolar que aproximadamente 4,0 milhões de atendimentos foram realizados fora das cidades de residência dos pacientes. Somente a título de comparação demográfica, a população do Uruguai foi estimada em <a href="https://datosmacro.expansion.com/paises/uruguay">3,5 milhões de habitantes</a> em 2020.</p>
 <p>A figura logo abaixo mostra os rankings que são elaborados a partir da amostra. São três gráficos: as cidades que mais tiveram pacientes se deslocando para outros municípios; aquelas que mais receberam pacientes de fora; e as cidades com maior número de atendimentos locais.</p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-14_6b8f3266b1fbf793d05071e2ddaf00c4">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-14_1f3cd981db7970593c58beb9945792f8">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>g1<span class="ot">&lt;-</span></span>
@@ -538,14 +538,14 @@ font-style: italic;
 <span id="cb8-74"><a href="#cb8-74" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">|</span>g2<span class="sc">|</span>g3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="768"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 <p>O efeito população faz com que São Paulo apareça entre as três primeiras posições do ranking nos três gráficos. Em todo caso, percebe-se que o maior destaque é nos atendimentos locais. É imensa a diferença da grande metrópole nacional em relação às outras cidades. Nota-se, ainda, no ranking do atendimento local a predominância das metrópoles e grandes cidades nacionais.</p>
 <p>Por outro lado, observa-se que municípios de populações menores que as metróploes são as mais frequentes no ranking das saídas. Já nas entradas percebe-se que Recife é a cidade que mais recebe pacientes de fora. A capital de Pernambuco supera São Paulo, inclusive em valores absolutos. Vale lembrar que a população de São Paulo é quase oito vezes maior do que a de Recife.</p>
 <p>Esses gráficos e esses achados mais interessantes nos inspiram a fazer as análises sobre deslocamentos para atendimentos hospitalar tendo como referência o quanto as cidades têm capacidade de gestão e influência sobre as outras. Usando essas duas variáveis, o <a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/redes-e-fluxos-geograficos/15798-regioes-de-influencia-das-cidades.html?=&amp;t=acesso-ao-produto">IBGE</a> elaborou um modelo hierárquico das cidades brasileiras conhecido como REGIC. Vamos utilizar esse modelo em vários dos gráficos a partir de agora.</p>
 <p>Começamos mostrando quais são os níveis hierárquicos do REGIC e como se dividem territoralmente no mapa brasileiro. Veja abaixo.</p>
-<div class="cell" data-fig.dpi="300" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-16_b74beef5b7f1014d719b3270ee5e572d">
+<div class="cell" data-fig.dpi="300" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-16_d46021a055d4e00512855ac38e299d89">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#mapa dos municípios brasileiros por nível hierárquico do REGIC</span></span>
@@ -576,44 +576,42 @@ font-style: italic;
 <span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>municipios_seat<span class="ot">&lt;-</span> <span class="fu">cbind</span>(municipios_seat, <span class="fu">st_coordinates</span>(<span class="fu">st_centroid</span>(municipios_seat)))</span>
 <span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>municipios_seat <span class="sc">%&gt;%</span></span>
-<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(</span>
-<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>    REGIC_trabalho <span class="sc">%&gt;%</span></span>
-<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">code_muni =</span> cod_cidade))<span class="sc">%&gt;%</span></span>
-<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(</span>
-<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>        pop_municipios <span class="sc">%&gt;%</span></span>
-<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">code_muni =</span> <span class="fu">as.numeric</span>(id_municipio))</span>
-<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>()<span class="sc">+</span></span>
-<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> estados_mapa, <span class="at">fill=</span><span class="cn">NA</span>, <span class="at">color=</span><span class="st">"#808080"</span>)<span class="sc">+</span></span>
-<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>( <span class="at">fill=</span> pop_cut),<span class="at">pch=</span><span class="dv">21</span>, <span class="at">color=</span><span class="st">"#444444"</span>, <span class="at">size=</span><span class="fl">2.9</span>)<span class="sc">+</span></span>
-<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1A,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
-<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1B,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
-<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1C,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
-<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_2A,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>, <span class="at">force =</span><span class="dv">2</span>)<span class="sc">+</span></span>
-<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis</span>(<span class="at">discrete =</span> <span class="cn">TRUE</span>)<span class="sc">+</span></span>
-<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill=</span> <span class="fu">str_wrap</span>(<span class="st">"População (nº de habitantes)"</span>,<span class="dv">20</span>) </span>
-<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
-<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
-<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
-<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#15202B"</span>),</span>
-<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#505050"</span>),</span>
-<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"white"</span>),</span>
-<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.key =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#15202B"</span>)</span>
-<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
-<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(nome_nivel_hierarquia_ordenado<span class="sc">~</span>.)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>municipios_seat <span class="sc">%&gt;%</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>    REGIC_trabalho <span class="sc">%&gt;%</span></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">code_muni =</span> cod_cidade))<span class="sc">%&gt;%</span></span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(</span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>        pop_municipios <span class="sc">%&gt;%</span></span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">code_muni =</span> <span class="fu">as.numeric</span>(id_municipio))</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>()<span class="sc">+</span></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> estados_mapa, <span class="at">fill=</span><span class="cn">NA</span>, <span class="at">color=</span><span class="st">"#808080"</span>)<span class="sc">+</span></span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>( <span class="at">fill=</span> pop_cut),<span class="at">pch=</span><span class="dv">21</span>, <span class="at">color=</span><span class="st">"#444444"</span>, <span class="at">size=</span><span class="fl">2.9</span>)<span class="sc">+</span></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1A,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1B,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_1C,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>)<span class="sc">+</span></span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">data =</span> mun_sel_nivel_2A,<span class="fu">aes</span>(<span class="at">x=</span>X, <span class="at">y=</span>Y, <span class="at">label=</span> name_muni),<span class="at">fontface =</span> <span class="st">"bold"</span>, <span class="at">color=</span><span class="st">"white"</span>, <span class="at">force =</span><span class="dv">2</span>)<span class="sc">+</span></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis</span>(<span class="at">discrete =</span> <span class="cn">TRUE</span>)<span class="sc">+</span></span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill=</span> <span class="fu">str_wrap</span>(<span class="st">"População (nº de habitantes)"</span>,<span class="dv">20</span>) </span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_light</span>() <span class="sc">+</span></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>    <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">20</span>),</span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#15202B"</span>),</span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title.y =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#505050"</span>),</span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"white"</span>),</span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.text =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.key =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#15202B"</span>)</span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>  )<span class="sc">+</span></span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(nome_nivel_hierarquia_ordenado<span class="sc">~</span>.)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="6000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="6000"></p>
 </div>
 </div>
 <p>Como se vê na figura acima, o REGIC divide as cidades do Brasil em onze níveis e sub-níveis hierárquicos. Da esquerda para a direita, de cima para baixo, é possível perceber a gradação hierárquica.</p>
@@ -635,8 +633,8 @@ font-style: italic;
 </section>
 <section id="as-regiões-de-influência-entradas-e-saídas" class="level2">
 <h2 class="anchored" data-anchor-id="as-regiões-de-influência-entradas-e-saídas">As regiões de influência: entradas e saídas</h2>
-<p>Como as regiões de influência se associam aos fluxos de pacientes? Existem diversas formas de se responder essa pergunta. Vamos começar mostrando três gráficos: o primeiro evidencia o número de internações para cada grupo hierárquico; o segundo indica como a demanda dos pacientes é atendida de acordo com o local de internação: hospitais locais ou outros municípios. Por fim, o terceiro gráfico revela a origem dos pacientes nos atendimentos hospitalares: pacientes locais ou pacientes vindos de outros municípios. Sempre bom lembrar que os dados trabalhados nessa análise referem-se a uma amostra do total de internações ocorridas no Brasil em 2020.</p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-18_16473dbbbdf73a547a6c7e556b06197a">
+<p>Como as regiões de influência se associam aos fluxos de pacientes? Existem diversas formas de se responder essa pergunta. Vamos começar mostrando três gráficos: o primeiro evidencia o número de internações para cada grupo hierárquico; o segundo indica como a demanda dos pacientes é atendida de acordo com o local de internação: hospitais locais ou outros municípios. Por fim, o terceiro gráfico revela a origem dos pacientes nos atendimentos hospitalares: pacientes locais ou pacientes vindos de outros municípios. Sempre bom lembrar que os dados trabalhados nessa análise referem-se a uma amostra do total de internações ocorridas no Brasil em 2021.</p>
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-18_0a4bc821b67c0c51721f897f02b63944">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Distribuição de quantidade de internações distribuição de tipos de internação por regic </span></span>
@@ -760,14 +758,14 @@ font-style: italic;
 <span id="cb10-119"><a href="#cb10-119" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">/</span>g2<span class="sc">/</span>g3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="768"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="768"></p>
 </div>
 </div>
 <p>No primeiro gráfico vê-se que os centros locais lideram o ranking de quantidade de atendimentos. A soma das populações dos mais de 4000 municípios desse nível hierárquico ajuda a justificar essa posição. A combinação de efeito da quantidade de municípios e de população dos municípios explica grande parte do ranking. Mas, na verdade, os principais achados encontram-se nos outros dois gráficos.</p>
 <p>Pelo segundo gráfico vê-se que os centros locais se destacam por ter a maior proporção de atendimentos dos seus residentes em outras cidades. Isso combina com o que se esperava da classificação REGIC, onde esses municípios se caracterizam pela pouca autonomia de gestão. Destaca-se, ainda, a grande necessidade de deslocamento dos pacientes residentes nos centros de zona. No sentido contrário, todos os sub-níveis hierárquicos de metrópoles destacam-se pela grande autonomia no atendimento de seus pacientes.</p>
 <p>O terceiro gráfico está ordenado pelo número total de atendimentos realizados em cada nível REGIC. Em relação à recepção de pacientes de outras cidades, vê-se um forte papel desempenhado por Metrópole, mas, ainda mais importante, destaca-se o papel dos níveis intermediários da hierarquia REGIC, representados principalmente por capitais regionais e centros sub-regionais. Aqui pode-se inferir que os pacientes procuram primeiro o atendimento nos municípios de nível de influência um pouco mais elevadao e possivelmente mais próximos ao seu endereço. Em outras palavras, não há necessariamente um fluxo direto para as metrópoles. Um pouco mais adiante vamos mostrar isso de uma forma mais evidente com os fluxos entre as classes hierárquicas.</p>
 <p>Vamos nesse momento para uma outra análise: como fica no mapa do Brasil a informação de entradas e saídas de pacientes? Com os dados de atendimentos calculamos para cada cidade qual o percentual de pacientes que são atendidos em outro municípios. Da mesma forma, calculamos para cada cidade quanto do total de pacientes atendidos em sua rede hospitalar são oriundos de outros centros urbanos. Vamos começar mostrando um gráfico que trabalha com o percentual de saída de pacientes para outras localidades.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-20_5600ee17bad5714617c61bf0fc94cec3">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-20_3c0dfe25b8f8a2c8e2fa48f73d242f26">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>agrupamento_municipio<span class="ot">&lt;-</span></span>
@@ -857,13 +855,13 @@ font-style: italic;
 <span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(nome_nivel_hierarquia_ordenado<span class="sc">~</span>.)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
 <p>Como se vê no mapa, os centros locais concentram os pontos com tons vermelhos mais fortes que mostram os municípios com elevado percentual de pacientes que precisam viajar para serem atendidos em hospitais. Todos os sub-níveis hierárquicos de metrópoles, por outro lado, apresentam-se com cores amarelas que representam baixa necessidade de deslocamentos.</p>
 <p>Os mapas reforçam o que se esperava dos níveis hierárquicos extremos no que diz respeito à autonomia dada pelas capacidades de gestão. Onde há poucos serviços e baixa gestão, há forte dependência de estruturas hospitalares de outros municípios. Pelo lado contrário, cidades como São Paulo, Brasília, Rio de Janeiro, ou mesmo capitais regionais como São Luis e Maceió, oferecem estruturas administrativas e serviços capazes de prover o atendimento hospitalar necessário para seus pacientes.</p>
 <p>Vamos ver agora como ficam os mapas quando se analisa a chegada de pacientes vindos de outros municípios.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-22_f1e5f1bc33396fd7f7906e7c25a84a2e">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-22_05d4ac194c13cec0266e972b6fe907ce">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>municipios_seat <span class="sc">%&gt;%</span></span>
@@ -901,13 +899,13 @@ font-style: italic;
 <span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(nome_nivel_hierarquia_ordenado<span class="sc">~</span>.)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
 <p>As cores do mapa mostram o percentual de pacientes atendidos nas redes hospitalares de cada cidade que são oriundos de outros municípios. É interessante observar que a escala prevê que se chegue a 0% de pacientes vindos de outros municípios. Para esses casos a cor dos pontos é próxima de branco. Se observarmos o mapa dos centros locais vemos uma grande predominância dessa situação.</p>
 <p>Por outro lado, as cores mais quentes são as que representam os municípios com alta receptividade de pacientes de fora. Aqui se percebe o papel importante das metrópoles, que já era esperado dado o nível de influência previsto no REGIC. O achado mais revelador é o grande número de pontos em tons vermelhos fortes presentes nos mapas das capitais regionais e dos centros sub-regionais. Isso reforça o que já havia sido observado anteriormente sobre a importância desses tipos de centros urbanos para a recepção de pacientes vindos de cidades com baixa capacidade de gestão.</p>
 <p>Nos próximos gráficos exploramos como se dá o fluxo entre os níveis hierárquicos. Você verá que ficará mais claro qual o papel dos níveis hierárquicos intermediários na absorção dos pacientes que precisam se deslocar de suas cidades de residência.</p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-24_3f925ffa94456187f31bfaa2ff10b333">
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-24_2d394f122ae3b3fd21882ed3d2a625fe">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>ordem_y<span class="ot">&lt;-</span> </span>
@@ -963,12 +961,12 @@ font-style: italic;
 <span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>parcats<span class="sc">::</span><span class="fu">parcats</span>(p, <span class="at">data_input =</span> aluvial,<span class="at">marginal_histograms =</span> <span class="cn">FALSE</span>,<span class="at">labelfont =</span> <span class="fu">list</span>(<span class="at">size =</span> <span class="dv">15</span>, <span class="at">color =</span> <span class="st">"black"</span>), <span class="at">sortpaths=</span> <span class="st">"backwards"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="htmlwidget-8cf6cee03b7073150f18" style="width:100%;height:325px;" class="parcats html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8cf6cee03b7073150f18">{"x":{"traces":{"parcats":{"type":"parcats","dimensions":[{"label":"saída","values":["Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local"],"categoryorder":"array","categoryarray":"Centro Local"},{"label":"entrada","values":["Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole"],"categoryorder":"array","categoryarray":["Centro Sub-Reg.B","Cap.Reg.C","Centro Sub-Reg.A","Metrópole","Cap.Reg.B","Cap.Reg.A","Centro de Zona B","Centro de Zona A","Met.Nacional","G.Met.Nacional","Centro Local"]}],"counts":[14454,15161,26628,7031,7877,12354,24604,27451,417,516,20945],"line":{"shape":"hspline","color":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065"]},"hoveron":"color","hoverinfo":"count+probability","labelfont":{"size":15,"color":"black"},"arrangement":"perpendicular","bundlecolors":true,"sortpaths":"backwards","tickfont":null,"domain":{"y":[0,1]}}},"layout":[],"shapes":[],"shapes_original":[],"map_curve":[],"map_trace_2_shape":[],"map_type":[],"map_color":[],"parcats_cols":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065"],"imp":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b876384ecd077e5a48ca" style="width:100%;height:325px;" class="parcats html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b876384ecd077e5a48ca">{"x":{"traces":{"parcats":{"type":"parcats","dimensions":[{"label":"saída","values":["Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local","Centro Local"],"categoryorder":"array","categoryarray":"Centro Local"},{"label":"entrada","values":["Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole"],"categoryorder":"array","categoryarray":["Centro Sub-Reg.B","Cap.Reg.C","Centro Sub-Reg.A","Metrópole","Cap.Reg.B","Cap.Reg.A","Centro de Zona B","Centro de Zona A","Met.Nacional","G.Met.Nacional","Centro Local"]}],"counts":[15878,16965,28454,7714,8340,12506,26891,30109,461,615,23597],"line":{"shape":"hspline","color":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065"]},"hoveron":"color","hoverinfo":"count+probability","labelfont":{"size":15,"color":"black"},"arrangement":"perpendicular","bundlecolors":true,"sortpaths":"backwards","tickfont":null,"domain":{"y":[0,1]}}},"layout":[],"shapes":[],"shapes_original":[],"map_curve":[],"map_trace_2_shape":[],"map_type":[],"map_color":[],"parcats_cols":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065"],"imp":false},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p>O primeiro fluxo representado na figura acima mostra que os pacientes de municípios categorizados como centros locais se deslocam principalmente, nesta ordem, para: centros sub-regionais B (17,4%), capitais regionais C (16,9%), centros sub-regionais A (15,6%) e só na quarta posição aparecem as metrópoles (13,3%). Com isso não resta dúvida que a hierarquia REGIC é de uma certa forma escalada quando se busca atendimento hospitalar. A metrópole possui atratividade para os centros locais, mas é moderada pela próximidade e capacidade de gestão de outros níveis urbanos.</p>
-<div class="cell" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-26_5e158c3e35c0c602ae413f2255560d4a">
+<p>O primeiro fluxo representado na figura acima mostra que os pacientes de municípios categorizados como centros locais se deslocam principalmente, nesta ordem, para: centros sub-regionais B (17,6%), capitais regionais C (16,6%), centros sub-regionais A (15,7%) e só na quarta posição aparecem as metrópoles (13,8%). Com isso não resta dúvida que a hierarquia REGIC é de uma certa forma escalada quando se busca atendimento hospitalar. A metrópole possui atratividade para os centros locais, mas é moderada pela próximidade e capacidade de gestão de outros níveis urbanos.</p>
+<div class="cell" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-26_ac9dbbfd6bf59bd2013c3efc3a6f1579">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>ordem_y<span class="ot">&lt;-</span> </span>
@@ -1016,8 +1014,8 @@ font-style: italic;
 <span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a> parcats<span class="sc">::</span><span class="fu">parcats</span>(p, <span class="at">data_input =</span> aluvial,<span class="at">marginal_histograms =</span> <span class="cn">FALSE</span>, <span class="at">sortpaths=</span> <span class="st">"backward"</span>, <span class="at">labelfont =</span> <span class="fu">list</span>(<span class="at">size =</span> <span class="dv">15</span>, <span class="at">color =</span> <span class="st">"black"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="htmlwidget-e5220a67cc394d643893" style="width:100%;height:325px;" class="parcats html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e5220a67cc394d643893">{"x":{"traces":{"parcats":{"type":"parcats","dimensions":[{"label":"saida","values":["Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B"],"categoryorder":"array","categoryarray":["Centro Sub-Reg.B","Cap.Reg.C","Cap.Reg.B"]},{"label":"entrada","values":["Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole","Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole","Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole"],"categoryorder":"array","categoryarray":["Metrópole","Cap.Reg.A","Centro Sub-Reg.A","Centro Local","Met.Nacional","Centro de Zona A","G.Met.Nacional","Centro de Zona B","Centro Sub-Reg.B","Cap.Reg.C","Cap.Reg.B"]}],"counts":[24,149,342,87,70,318,229,211,132,21,1087,481,734,470,93,77,519,341,381,200,223,1566,2548,3903,4404,407,347,1249,2459,1145,238,384,7166],"line":{"shape":"hspline","color":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B"]},"hoveron":"color","hoverinfo":"count+probability","labelfont":{"size":15,"color":"black"},"arrangement":"perpendicular","bundlecolors":true,"sortpaths":"backward","tickfont":null,"domain":{"y":[0,1]}}},"layout":[],"shapes":[],"shapes_original":[],"map_curve":[],"map_trace_2_shape":[],"map_type":[],"map_color":[],"parcats_cols":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B"],"imp":false},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2996f3183b6853f16835" style="width:100%;height:325px;" class="parcats html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2996f3183b6853f16835">{"x":{"traces":{"parcats":{"type":"parcats","dimensions":[{"label":"saida","values":["Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.B","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Cap.Reg.C","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B","Centro Sub-Reg.B"],"categoryorder":"array","categoryarray":["Centro Sub-Reg.B","Cap.Reg.C","Cap.Reg.B"]},{"label":"entrada","values":["Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole","Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole","Cap.Reg.A","Cap.Reg.B","Cap.Reg.C","Centro de Zona A","Centro de Zona B","Centro Local","Centro Sub-Reg.A","Centro Sub-Reg.B","G.Met.Nacional","Met.Nacional","Metrópole"],"categoryorder":"array","categoryarray":["Metrópole","Centro Sub-Reg.A","Cap.Reg.A","Centro Local","Met.Nacional","Centro de Zona A","G.Met.Nacional","Centro de Zona B","Centro Sub-Reg.B","Cap.Reg.C","Cap.Reg.B"]}],"counts":[26,169,375,83,52,282,214,216,155,29,1146,522,801,498,124,111,595,300,426,235,284,1772,2633,4126,4592,451,317,1298,2738,1327,265,480,8255],"line":{"shape":"hspline","color":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B"]},"hoveron":"color","hoverinfo":"count+probability","labelfont":{"size":15,"color":"black"},"arrangement":"perpendicular","bundlecolors":true,"sortpaths":"backward","tickfont":null,"domain":{"y":[0,1]}}},"layout":[],"shapes":[],"shapes_original":[],"map_curve":[],"map_trace_2_shape":[],"map_type":[],"map_color":[],"parcats_cols":["#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#FF0065","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#009850","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B","#A56F2B"],"imp":false},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>O gráfico acima mostra o resultado de um teste estatístico, chi-quadrado, que revelou que as metrópoles atraem de forma diferenciada os pacientes de municípios dos níveis centro sub-regionais B, capital regional C e capital regional B. É aqui que se revela a influência das metrópoles: a atração de pacientes de municípios posicionados em níveis intermediários da classificação REGIC.</p>
@@ -1025,7 +1023,7 @@ font-style: italic;
 <section id="distâncias-percorridas" class="level2">
 <h2 class="anchored" data-anchor-id="distâncias-percorridas">Distâncias percorridas</h2>
 <p>Ao colocarmos no mapa do Brasil as distâncias percorridas pelos pacientes em busca de atendimentos hospitalar podemos identificar padrões de atração e necessidade de deslocamentos. Vamos começar com um mapa que mostra os deslocamentos observados na amostra para o município de Paraupebas no interior do Pará. Escolhemos esse município pelos deslocamentos de saída com distâncias médias elevadas para o que normalmente se observa.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-28_6602c55bf9a58faf767661768c897f7d">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-28_c24aab92920f58f396bf57c64fb2be0c">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>muni_sel<span class="ot">&lt;-</span> </span>
@@ -1170,12 +1168,12 @@ font-style: italic;
 <span id="cb15-140"><a href="#cb15-140" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">|</span>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-28-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
 <p>Paraupebas é classificado como Centro sub-regional A. Com o percentual de saída de paciente em torno de 13% consegue atender a maior parte da demanda local. Ainda assim, 112 pacientes da amostra precisaram ser atendidos em outras cidades. Pelo mapa à esquerda observa-se que as distâncias para esse atendimento alcançaram 1250 km, com pacientes sendo atendidos em quatro regiões do Brasil: Norte, Nordeste, Sudeste e Centro-Oeste. Nota-se que a maior parte dos atendimentos, conforme a cor vermelha no mapa à direita, ocorre em Belém e Marabá, ambas cidades localizadas no Pará. Mesmo para esses municípios as distâncias não são pequenas. Marabá, uma capital regional C, fica a aproximadamente 100km, enquanto Belém, a metrópole do estado, está a 370km. Importante notar que essas distâncias foram calculadas usando a <a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_haversine">fórmula de haversine</a> e não levam em conta as condições de meio de transporte disponíveis.</p>
 <p>Vamos ver agora como fica um exemplo de chegada de pacientes. A influência de um município pode ser claramente identificada por esses estudos espaciais que envolvem os mapas de distância e quantidade de pacientes atendidos vindos de outros municípios. Focaremos o caso de Recife, a cidade que mais atrai pacientes de outros centros urbanos.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-30_e0571f4c00ba56c77cbab17e07d14ebc">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-30_b22b84038afa9c2a4c9982e30041d5d2">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>municipio_selecionado<span class="ot">&lt;-</span><span class="st">"261160"</span></span>
@@ -1229,7 +1227,7 @@ font-style: italic;
 <span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>muni_sel_repel<span class="ot">&lt;-</span></span>
 <span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>   municipios_seat <span class="sc">%&gt;%</span></span>
 <span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>   <span class="fu">mutate</span>(<span class="at">code_muni =</span> <span class="fu">str_sub</span>(<span class="fu">as.character</span>(code_muni),<span class="dv">1</span>,<span class="dv">6</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a>   <span class="fu">filter</span>(code_muni <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"260960"</span>, <span class="st">"260790"</span>,<span class="st">"110150"</span>)) <span class="sc">%&gt;%</span> <span class="co">#261160-Recife,260790 -Jaboatão, 260960 - Olinda, 260410 - Caruarau, 260545 - Fernando de Noronha, 110150 - Seringueiras-RO</span></span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a>   <span class="fu">filter</span>(code_muni <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"260960"</span>, <span class="st">"260790"</span>,<span class="st">"120020"</span>)) <span class="sc">%&gt;%</span> <span class="co">#261160-Recife,260790 -Jaboatão, 260960 - Olinda, 260410 - Caruarau, 260545 - Fernando de Noronha, 120020 - Cruzeiro do Sul-AC</span></span>
 <span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(muni_sel)</span>
 <span id="cb16-54"><a href="#cb16-54" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb16-55"><a href="#cb16-55" aria-hidden="true" tabindex="-1"></a></span>
@@ -1345,12 +1343,12 @@ font-style: italic;
 <span id="cb16-165"><a href="#cb16-165" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">|</span>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-30-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-30-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
-<p>A influência da metrópole Recife pode ser percebida em todo Brasil quando se trata de atendimento hospitalar. Observando no mapa à esquerda as distâncias haversianas nota-se que Recife atende pacientes que residem a mais de 3000km. A amostra indica que a capital pernambucana recebeu pacientes de quase todas as unidades federativas do país, com exceção de Mato grosso e Goiás. Por outro lado, ao se avaliar o mapa da direita, percebe-se que a maior influência ocorre sobre os municípios da região metropolitana, particularmente Olinda e Jaboatão dos Guararapes. É fácil perceber ainda que há uma extensão de pontos em tons vermelhos que se estende por todo o estado de Pernambuco. Também identifica-se a influência sobre estados vizinhos, notadamente Paraíba, Alagoas e Rio Grande do Norte.</p>
+<p>A influência da metrópole Recife pode ser percebida em todo Brasil quando se trata de atendimento hospitalar. Observando no mapa à esquerda as distâncias haversianas nota-se que Recife atende pacientes que residem a mais de 4000km. A amostra indica que a capital pernambucana recebeu pacientes de quase todas as unidades federativas do país. Por outro lado, ao se avaliar o mapa da direita, percebe-se que a maior influência ocorre sobre os municípios da região metropolitana, particularmente Olinda e Jaboatão dos Guararapes. É fácil perceber ainda que há uma extensão de pontos em tons vermelhos que se estende por todo o estado de Pernambuco. Também identifica-se a influência sobre estados vizinhos, notadamente Paraíba, Alagoas e Rio Grande do Norte.</p>
 <p>Essa influência do Recife era de uma certa forma esperada já que se trata de uma metrópole, porém, como já evidenciamos anteriormente, há situações de influências importantes associadas a municípios de hierarquias intermediárias. Vamos ver o caso de Barretos no interior de São Paulo.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-32_821b7439c8f8a6e2dd6cbf1c13c1b481">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-32_9e759993fe462eb32b4fb03235ea3ed6">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>municipio_selecionado<span class="ot">&lt;-</span><span class="st">"350550"</span></span>
@@ -1404,7 +1402,7 @@ font-style: italic;
 <span id="cb17-49"><a href="#cb17-49" aria-hidden="true" tabindex="-1"></a>muni_sel_repel<span class="ot">&lt;-</span></span>
 <span id="cb17-50"><a href="#cb17-50" aria-hidden="true" tabindex="-1"></a>   municipios_seat <span class="sc">%&gt;%</span></span>
 <span id="cb17-51"><a href="#cb17-51" aria-hidden="true" tabindex="-1"></a>   <span class="fu">mutate</span>(<span class="at">code_muni =</span> <span class="fu">str_sub</span>(<span class="fu">as.character</span>(code_muni),<span class="dv">1</span>,<span class="dv">6</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb17-52"><a href="#cb17-52" aria-hidden="true" tabindex="-1"></a>   <span class="fu">filter</span>(code_muni <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"350610"</span>, <span class="st">"351740"</span>,<span class="st">"522050"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb17-52"><a href="#cb17-52" aria-hidden="true" tabindex="-1"></a>   <span class="fu">filter</span>(code_muni <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"350610"</span>, <span class="st">"351740"</span>,<span class="st">"140010"</span>)) <span class="sc">%&gt;%</span></span>
 <span id="cb17-53"><a href="#cb17-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(muni_sel)</span>
 <span id="cb17-54"><a href="#cb17-54" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb17-55"><a href="#cb17-55" aria-hidden="true" tabindex="-1"></a></span>
@@ -1522,26 +1520,26 @@ font-style: italic;
 <span id="cb17-167"><a href="#cb17-167" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">|</span>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-32-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
-<p>Barretos é uma capital regional C. Observa-se no mapa que esse nível intermediário de influência não impediu de alcançar pacientes que residem a mais de 2000 km de distância. Mesmo o número absoluto de pacientes vindos de outras localidades sendo bem inferior a Recife, ainda assim a amostra trabalhada indicou que a influência da cidade só não atingiu os estados do Rio Grande do Norte e Paraíba. E aqui novamente se revela a concentração de atendimentos em cidades mais próximas, principalmente nos estados de São Paulo, Minas Gerais e Goiás.</p>
+<p>Barretos é uma capital regional C. Observa-se no mapa que esse nível intermediário de influência não impediu de alcançar pacientes que residem a mais de 2000 km de distância. Mesmo o número absoluto de pacientes vindos de outras localidades sendo bem inferior a Recife, ainda assim a amostra trabalhada indicou que a influência da cidade atingiu todos os Estados do Brasil. E aqui novamente se revela a concentração de atendimentos em cidades mais próximas, principalmente nos estados de São Paulo, Minas Gerais e Goiás.</p>
 </section>
 <section id="chegadas-partidas-e-as-relações-com-gastos-hospitalares-e-ambulatoriais" class="level2">
 <h2 class="anchored" data-anchor-id="chegadas-partidas-e-as-relações-com-gastos-hospitalares-e-ambulatoriais">Chegadas, partidas e as relações com gastos Hospitalares e Ambulatoriais</h2>
 <p>Ao chegarmos nesse ponto do texto já identificamos diversos aspectos importantes sobre os fenômenos de deslocamentos de pacientes e as suas relações com o tipo de cidade em que essas pessoas habitam. Agora precisamos voltar à pergunta original que motivou esse trabalho e buscar entender quais são as associações entre gastos municipais com hospitais e os deslocamentos de pacientes.</p>
 <p>Na análise, utilizamos uma técnica chamada <a href="https://pt.wikipedia.org/wiki/Clustering">agrupamento</a>. Para o nosso caso buscamos agrupar os municípios com valores parecidos nas duas dimensões já analisadas anteriormente: percentual de saída de paciente e percentual de atendimentos de pacientes de outros municípios. Usando algumas recomendações para definição do número de agrupamentos, nos definimos por quatro tipos de conjuntos distintos de municípios:</p>
 <ul>
-<li>Entrada moderada: formado por 702 municípios. <a href="https://cidades.ibge.gov.br/brasil/sc/ituporanga/panorama">Ituporanga-SC</a> é o município que ocupa a posição central do agrupamento<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Seu percentual de atendimentos de paciente de outros municípios é 45% e percentual de saída de pacientes é 29,1%.</li>
-<li>Saída fraca: formado por 1017 municípios. O município de <a href="https://cidades.ibge.gov.br/brasil/mg/tres-marias/panorama">Três Marias-MG</a> é o que melhor caracteriza esse grupo. O percentual de saída é 31% e o de entrada é 7%.</li>
-<li>Saída moderada: para esses casos encontramos 1051 municípios. Aqui temos como ponto central a cidade de <a href="https://cidades.ibge.gov.br/brasil/rr/sao-luiz/panorama">São Luiz-RR</a> com saída de 65,8% dos pacientes e entrada de 6,7%</li>
-<li>Saída forte: é o maior grupo, formado por 2799 municípios. A localidade <a href="https://cidades.ibge.gov.br/brasil/go/vila-propicio/panorama">Vila Propício-GO</a> representa o grupo com 100% de saída de pacientes e 0% de chegada.</li>
+<li><p>Entrada moderada: formado por 700 municípios. O município de <a href="https://cidades.ibge.gov.br/brasil/es/guacui/panorama">Guaçuí-ES</a> é o município que ocupa a posição central do agrupamento<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Seu percentual de atendimentos de paciente de outros municípios é 45,9% e percentual de saída de pacientes é 30,3.</p></li>
+<li><p>Saída fraca: formado por 1020 municípios, <a href="https://cidades.ibge.gov.br/brasil/ma/sao-bento/panorama">São Bento-MA</a> é o que melhor caracteriza esse grupo. Para essa cidade, O percentual de saída é 34,4% e o de entrada é 6,2%.</p></li>
+<li><p>Saída moderada: para esses casos encontramos 1075 municípios. Aqui temos como ponto central a cidade de <a href="https://cidades.ibge.gov.br/brasil/pa/nova-ipixuna/panorama">Nova Ipixuna-PA</a> com saída de 64,2% dos pacientes e entrada de 4,0%</p></li>
+<li><p>Saída forte: é o maior grupo, formado por 2775 municípios. A localidade <a href="https://cidades.ibge.gov.br/brasil/go/vila-propicio/panorama">Vila Propício-GO</a> representa o grupo com 100% de saída de pacientes e 0% de chegada.</p></li>
 </ul>
 <p>O proximo passo foi identificar como os percentuais de gastos em hospitais se associam a cada um dos grupos<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. A figura logo abaixo nos permite identificar algumas conclusões.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-34_6fb3496fc1463a0486ab8a65036d08da">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-34_3e0fc7ab7ba92fe8afd91180548a6f6b">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>agrupamento_municipio_cluster<span class="ot">&lt;-</span><span class="fu">readRDS</span>(<span class="st">"agrupamento_municipio_2020.RDS"</span>)</span>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>agrupamento_municipio_cluster<span class="ot">&lt;-</span><span class="fu">readRDS</span>(<span class="st">"agrupamento_municipio_2021.RDS"</span>)</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>g1<span class="ot">&lt;-</span></span>
 <span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>dataset_analise <span class="sc">%&gt;%</span></span>
@@ -1610,7 +1608,7 @@ font-style: italic;
 <span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a>g1<span class="sc">|</span>g2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-34-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-34-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
 <p>Cada ponto colorido dos gráficos é um município brasileiro. As cores dos pontos representam o percentual de saída de pacientes, para o gráfico esquerdo, e o percentual de atendimentos de pacientes de outras cidades, para o gráfico direito. No eixo horizontal dos dois gráficos vemos os grupos e no eixo vertical o percentual de gastos com atendimento hospitalar e ambulatorial. Os quadrados que aparecem nos gráficos são conhecidos como box-plot. A principal função do box-plot é identificar o intervalo onde ficam 75% dos valores intermediários da dimensão que queremos analisar. Esse intervalo é dado pela área entre a primeira e a terceira retas horizontais do quadrado. A reta horizontal do meio representa a mediana. Em outras palavras, para o caso em análise, 50% dos municípios apresentam proporções de gastos com atendimento hospitalar e ambulatorial menores do que o valor assinalado pela reta da mediana em cada um dos box-plots representados.</p>
@@ -1618,7 +1616,7 @@ font-style: italic;
 <p>O gráfico do lado direito traz sinais contraditórios. Os grupos <strong>entrada moderada</strong> e <strong>saída forte</strong> apresentam medianas parecidas e maiores do que as dos outros dois grupos. Nesse caso não é possível chegar-se a conclusões sobre o impacto da despesa com hospitais e atração de pacientes.</p>
 <p>Observando o quadro geral dos dois gráficos e contrastando com nossa inquietação de pesquisa inicial, podemos concluir que há uma forte associação inversa entre proporções de gastos com hospitais e necessidade de deslocamento de pacientes para outros municípios.</p>
 <p>É possível repetir essa análise com cortes pelos níveis do REGIC. Veja a imagem abaixo.</p>
-<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2020_cache/html/unnamed-chunk-36_84066c7b19b8c36dc5b7c1ba230d641d">
+<div class="cell" data-fig.dpi="500" data-hash="federalismo_episodio_2_2021_cache/html/unnamed-chunk-36_88e5aa5024dcc2c0dfb70f3ed76104f5">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>dataset_analise <span class="sc">%&gt;%</span></span>
@@ -1671,7 +1669,7 @@ font-style: italic;
 <span id="cb19-48"><a href="#cb19-48" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(tipo_analise<span class="sc">~</span>.)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="federalismo_episodio_2_2020_files/figure-html/unnamed-chunk-36-1.png" class="img-fluid" width="10000"></p>
+<p><img src="federalismo_episodio_2_2021_files/figure-html/unnamed-chunk-36-1.png" class="img-fluid" width="10000"></p>
 </div>
 </div>
 <p>Novamente temos dois gráficos com pontos e box-plot. A diferença é que no eixo horizontal estão apresentados os níveis REGIC e as cores mostram quais a quais grupos os municípios estão associados, conforme pode ser lido na legenda.</p>
